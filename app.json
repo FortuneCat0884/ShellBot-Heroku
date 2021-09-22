@@ -8,9 +8,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/SuperCosmicBeing/shellbot-workflow-nd",
-  "website": "https://t.me/SuperCosmicBeing",
-  "success_url": "https://t.me/FrosT2k5",
+  "repository": "https://github.com/kingsmankdi/ShellBot-Heroku",
+  "website": "https://t.me/kthnxbyeeee",
+  "success_url": "https://t.me/kthnxbyeeee",
   "stack": "container",
   "env": {
     "BOTTOKEN": {
