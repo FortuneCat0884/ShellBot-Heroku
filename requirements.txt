@@ -1,4 +1,0 @@
-yt-dlp
-requests
-youtube-dl
-ykdl
