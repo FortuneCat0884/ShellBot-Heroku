@@ -10,6 +10,4 @@ RUN git clone https://github.com/SuperCosmicBeing/shellbot-workflow-nd -b heroku
 RUN git clone https://github.com/BOTGRAM/shell-bot .source/
 RUN cd .source && npm install
 RUN curl -sL https://git.io/file-transfer | sh
-ADD requirements.txt /tmp/
-RUN pip3 install --user -r /tmp/requirements.txt && rm /tmp/requirements.txt
 CMD ["bash"]
