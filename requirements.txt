@@ -1,3 +1,9 @@
+requests
+pycryptodome
 yt-dlp
 youtube-dl
 ykdl
+pyrogram
+urllib3
+aria2p
+speedtest-cli
