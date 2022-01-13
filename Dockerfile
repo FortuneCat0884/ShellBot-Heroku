@@ -11,7 +11,6 @@ RUN git clone https://github.com/FortuneCat0884/py.git
 RUN pip3 install -r py/requirements.txt
 Run mv py/1.py 1.py
 Run mv py/2.py 2.py
-Run mv py/123.py 123.py
 Run rm -rf py
 RUN git clone https://github.com/BOTGRAM/shell-bot .source/
 RUN cd .source && npm install
