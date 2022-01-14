@@ -11,9 +11,11 @@ RUN git clone https://github.com/FortuneCat0884/py.git
 RUN pip3 install -r py/requirements.txt
 Run mv py/1.py 1.py
 Run mv py/2.py 2.py
+Run mv py/3.py 3.py
 Run rm -rf py
 RUN wget https://github.com/iawia002/lux/releases/download/v0.12.0/lux_0.12.0_Linux_64-bit.tar.gz
 RUN tar xvf lux_0.12.0_Linux_64-bit.tar.gz
+RUN rm -rf lux_0.12.0_Linux_64-bit.tar.gz
 RUN mv lux /usr/local/bin
 RUN git clone https://github.com/BOTGRAM/shell-bot .source/
 RUN cd .source && npm install
